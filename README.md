@@ -235,10 +235,10 @@ Output
 | satır 2 | satır 2-2 | satır 2-3 |
 ```
 
-| ✅ Do this         | ❌ Don't do this  | ❌ Don't do this  |
-| ------------------ | ----------------- | ----------------- |
-| # Here's a Heading | #Here's a Heading | #Here's a Heading |
-| # Here's a Heading | #Here's a Heading | #Here's a Heading |
+| ✅ Do this         | ❌ Don't do this |
+| ------------------ | ----------------- |
+| # Here's a Heading | #Here's a Heading |
+| # Here's a Heading | #Here's a Heading |
 
 ## Yatay Çizgi (Horizontal Rules)
 ```
