@@ -17,6 +17,7 @@ Output
   - [Başlık Oluşturma](#basliklar-olusturma)
   - [Paragraf Oluşturma](#paragraf-olusturma)
   - [Liste Oluşturma](#liste-olusturma)
+  - [Tablo Oluşturma](#tablo-olusturma)
   - [Link Oluşturma](#link-olusturma)
   - [Resim Ekleme](#resim-ekleme)
 
@@ -225,6 +226,19 @@ Output
 | - First item | + First item |
 
 ***
+
+## Tablo Oluşturma
+
+| Sütun 1 | Sütun 2   | Sütun  3  |
+| ------- | --------- | ----------|
+| satır 1 | satır 1-2 | satır 1-3 |
+| satır 2 | satır 2-2 | satır 2-3 |
+```
+
+| ✅ Do this         | ❌ Don't do this  | ❌ Don't do this  |
+| ------------------ | ----------------- | ----------------- |
+| # Here's a Heading | #Here's a Heading | #Here's a Heading |
+| # Here's a Heading | #Here's a Heading | #Here's a Heading |
 
 ## Yatay Çizgi (Horizontal Rules)
 ```
