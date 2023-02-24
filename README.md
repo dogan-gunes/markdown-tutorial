@@ -227,7 +227,7 @@ Output
 
 ***
 
-## Tablo Oluşturma
+## Tablo Olusturma
 
 | Sütun 1 | Sütun 2   | Sütun  3  |
 | ------- | --------- | ----------|
