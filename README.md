@@ -50,7 +50,7 @@ input
 ###### Heading level 6
 
 
-## Use Case MarkDown
+### Use Case MarkDown
 
 | ✅ Do this         | ❌ Don't do this   |
 | ------------------ | ----------------- |
@@ -233,10 +233,6 @@ input
 | ------- | --------- | ----------|
 | satır 1 | satır 1-2 | satır 1-3 |
 | satır 2 | satır 2-2 | satır 2-3 |
-
-| ✅ Do this         | ❌ Don't do this |
-| ------------------ | ----------------- |
-| # Here's a Heading | #Here's a Heading |
 
 ## Yatay Çizgi (Horizontal Rules)
 ```
