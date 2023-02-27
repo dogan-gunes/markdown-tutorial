@@ -6,7 +6,7 @@
 input
 
 - [MarkDown ile Döküman](#markdown-dokuman)
-  - [Başlık Oluşturma](#basliklar-olusturma)
+  - [Başlık Oluşturma](#baslik-olusturma)
   - [Paragraf Oluşturma](#paragraf-olusturma)
   - [Liste Oluşturma](#liste-olusturma)
   - [Link Oluşturma](#link-olusturma)
@@ -15,14 +15,14 @@ input
 
 **Output**
 - [MarkDown ile Döküman](#markdown-dokuman)
-  - [Başlık Oluşturma](#basliklar-olusturma)
+  - [Başlık Oluşturma](#baslik-olusturma)
   - [Paragraf Oluşturma](#paragraf-olusturma)
   - [Liste Oluşturma](#liste-olusturma)
   - [Tablo Oluşturma](#tablo-olusturma)
   - [Link Oluşturma](#link-olusturma)
   - [Resim Ekleme](#resim-ekleme)
 
-## Basliklar Olusturma
+## Baslik Olusturma
 
 ```
 input
