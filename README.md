@@ -1,30 +1,31 @@
 # MarkDown Dokuman
 
 #### MarkDown ile navigation oluşturmak
+
 ```
 input
 
 - [MarkDown ile Döküman](#markdown-dokuman)
-  - [Başlık Oluşturma](#basliklar-olusturma)
+  - [Başlık Oluşturma](#baslik-olusturma)
   - [Paragraf Oluşturma](#paragraf-olusturma)
   - [Liste Oluşturma](#liste-olusturma)
   - [Link Oluşturma](#link-olusturma)
   - [Resim Ekleme](#resim-ekleme)
 ```
 
-Output
+**Output**
 - [MarkDown ile Döküman](#markdown-dokuman)
-  - [Başlık Oluşturma](#basliklar-olusturma)
+  - [Başlık Oluşturma](#baslik-olusturma)
   - [Paragraf Oluşturma](#paragraf-olusturma)
   - [Liste Oluşturma](#liste-olusturma)
   - [Tablo Oluşturma](#tablo-olusturma)
   - [Link Oluşturma](#link-olusturma)
   - [Resim Ekleme](#resim-ekleme)
 
-## Basliklar Olusturma
+## Baslik Olusturma
 
 ```
-Girdi (input)
+input
 
 # Heading level 1
 ## Heading level 2
@@ -34,7 +35,7 @@ Girdi (input)
 ###### Heading level 6
 ```
 
-Çıktı (output)
+**Output**
 
 # Heading level 1
 
@@ -49,25 +50,16 @@ Girdi (input)
 ###### Heading level 6
 
 
-## Use Case MarkDown
+### Use Case MarkDown
 
-```
-| ✅ Do this         | ❌ Don't do this  | ❌ Don't do this  |
-| ------------------ | ----------------- | ----------------- |
-| # Here's a Heading | #Here's a Heading | #Here's a Heading |
-| # Here's a Heading | #Here's a Heading | #Here's a Heading |
-```
+| ✅ Do this         | ❌ Don't do this   |
+| ------------------ | ----------------- |
+| # Here's a Heading | #Here's a Heading |
 
-| ✅ Do this         | ❌ Don't do this  | ❌ Don't do this  |
-| ------------------ | ----------------- | ----------------- |
-| # Here's a Heading | #Here's a Heading | #Here's a Heading |
-| # Here's a Heading | #Here's a Heading | #Here's a Heading |
-
-***
 
 # Paragraf Olusturma
 
-MarkDown'da syntax olmadan olmadan yazılabilir
+MarkDown'da metin yazarken syntax olmadan yazılabilir.
 
 #### Kalın(Bold) Yazmak
 
@@ -76,7 +68,7 @@ Input
 I just love **bold text**.
 ```
 
-Output
+**Output**
 
 I just love **bold text**.
 
@@ -87,7 +79,7 @@ Input
 Italicized text is the *cat's meow*.
 ```
 
-Output
+**Output**
 
 Italicized text is the _cat's meow_.
 
@@ -98,7 +90,7 @@ Input
 This text is ***really important***.
 ```
 
-Output
+**Output**
 
 This text is **_really important_**.
 
@@ -109,7 +101,7 @@ Input
 > Dorothy followed her through many of the beautiful rooms in her castle.
 ```
 
-Output
+**Output**
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
@@ -122,7 +114,6 @@ Output
 >
 >   _Everything_ is going according to **plan**.
 
-***
 
 ## Liste Olusturma
 
@@ -141,7 +132,7 @@ Input
 4. Fourth item
 ```
 
-Output
+**Output**
 
 1. First item
 2. Second item
@@ -174,7 +165,7 @@ Inputs
 
 ```
 
-Output
+**Output**
 
 - First item
   - Second item
@@ -194,7 +185,7 @@ Input
 - Fourth item
 ```
 
-Output
+**Output**
 
 - First item
 - Second item
@@ -213,32 +204,35 @@ Input
 ```
 
 
-Output
+**Output**
 
 - 1968\. A great year!
 - I think 1969 was second best.
 
-| ✅ Do this         | ❌ Don't do this  |
-| ------------------ | ----------------- |
+| ✅ Do this   | ❌ Don't do this|
+| ------------ | ------------ |
 | - First item | - First item |
 | - First item | + First item |
 | - First item | * First item |
 | - First item | + First item |
 
-***
 
-## Tablo Oluşturma
 
+## Tablo Olusturma
+
+```
+input
 | Sütun 1 | Sütun 2   | Sütun  3  |
 | ------- | --------- | ----------|
 | satır 1 | satır 1-2 | satır 1-3 |
 | satır 2 | satır 2-2 | satır 2-3 |
 ```
 
-| ✅ Do this         | ❌ Don't do this  | ❌ Don't do this  |
-| ------------------ | ----------------- | ----------------- |
-| # Here's a Heading | #Here's a Heading | #Here's a Heading |
-| # Here's a Heading | #Here's a Heading | #Here's a Heading |
+**Output**
+| Sütun 1 | Sütun 2   | Sütun  3  |
+| ------- | --------- | ----------|
+| satır 1 | satır 1-2 | satır 1-3 |
+| satır 2 | satır 2-2 | satır 2-3 |
 
 ## Yatay Çizgi (Horizontal Rules)
 ```
@@ -249,11 +243,13 @@ Input
 ___
 ```
 
-Output
+
+**Output**
 
 ***
 ---
 ___
+
 
 ## Link Olusturma
 
@@ -262,7 +258,7 @@ Input
 My favorite search engine is [Google](https://google.com).
 ```
 
-Output
+**Output**
 
 My favorite search engine is [Google](https://google.com).
 
@@ -275,7 +271,7 @@ Input
 My favorite search engine is [Google](https://google.com "https://google.com").
 ```
 
-Output
+**Output**
 
 My favorite search engine is [Google](https://google.com "https://google.com").
 
@@ -301,7 +297,7 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*.
 See the section on [`code`](#code).
 ```
 
-Output
+**Output**
 
 I love supporting the **[EFF](https://eff.org)**.
 
@@ -314,7 +310,7 @@ See the section on [`code`](#code).
 Input
 ![Test Image](/github-temp.png "Github Temp Test")
 ```
-Output
+**Output**
 ![Test Image](/github-temp.png "Github Temp Test")
 
 Link ve resim birlikte verilmek istenirse
